@@ -1,0 +1,30 @@
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\appsettings.Development.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\appsettings.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.staticwebassets.runtime.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.exe
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.deps.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.runtimeconfig.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.dll
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\bin\Debug\net8.0\Task Management System.pdb
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.GeneratedMSBuildEditorConfig.editorconfig
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.AssemblyInfoInputs.cache
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.AssemblyInfo.cs
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.csproj.CoreCompileInputs.cache
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.MvcApplicationPartsAssemblyInfo.cache
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.RazorAssemblyInfo.cache
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.RazorAssemblyInfo.cs
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets.build.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets.development.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets\msbuild.Task Management System.Microsoft.AspNetCore.StaticWebAssets.props
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets\msbuild.build.Task Management System.props
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Task Management System.props
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Task Management System.props
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\staticwebassets.pack.json
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\scopedcss\bundle\Task Management System.styles.css
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\scopedcss\projectbundle\Task Management System.bundle.scp.css
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.dll
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\refint\Task Management System.dll
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.pdb
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\Task Management System.genruntimeconfig.cache
+E:\BrainStation23\Bootcamp\Task Management System\Task Management System\obj\Debug\net8.0\ref\Task Management System.dll
