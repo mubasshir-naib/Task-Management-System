@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BrainStation23\\Bootcamp1\\Task Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\models\\tasksentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\tasksentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\20250821083354_taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Task Management\\Data\\Migrations\\20250821083354_taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T08:56:03.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\TasksController.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAEAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T08:46:08.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T08:39:03.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250821083354_taskentity.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
+              "RelativeDocumentMoniker": "Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
+              "RelativeToolTip": "Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T08:34:01.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TasksEntity.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\TasksEntity.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
+              "RelativeToolTip": "Task Management\\Models\\TasksEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T08:19:25.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Task Management\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Task Management\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T05:51:16.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Task Management\\ScaffoldingReadMe.txt",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Task Management\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-21T08:15:56.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Task Management",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeDocumentMoniker": "Task Management\\Task Management.csproj",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeToolTip": "Task Management\\Task Management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T08:12:40.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Task Management\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T06:24:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\appsettings.json",
+              "RelativeDocumentMoniker": "Task Management\\appsettings.json",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\appsettings.json",
+              "RelativeToolTip": "Task Management\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-21T06:14:48.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Program.cs",
+              "RelativeDocumentMoniker": "Task Management\\Program.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Program.cs",
+              "RelativeToolTip": "Task Management\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T05:51:08.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

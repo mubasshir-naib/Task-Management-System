@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Task_Management_System.Areas.Identity.Data;
 
 namespace Task_Management_System.Areas.Identity.Data;
 
