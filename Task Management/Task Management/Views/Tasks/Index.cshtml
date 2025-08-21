@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@*<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -58,3 +58,78 @@
 }
     </tbody>
 </table>
+*@
+<h1>Tasks</h1>
+<button id="refreshTasks" class="btn btn-primary">Refresh Tasks</button>
+<table id="taskTable" class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Tasks will be loaded here via AJAX -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Function to load tasks via AJAX
+        function loadTasks() {
+            $.get('/Tasks/GetTasks', function (data) {
+                $('#taskTable tbody').empty(); // Clear existing rows
+                $.each(data, function (index, task) {
+                    var row = '<tr>' +
+                        '<td>' + task.title + '</td>' +
+                        '<td>' + (task.description || '') + '</td>' +
+                        '<td>' + (task.dueDate ? new Date(task.dueDate).toLocaleDateString() : '') + '</td>' +
+                        '<td>' +
+                            '<select class="status-select" data-id="' + task.id + '">' +
+                                '<option value="To Do" ' + (task.status === 'To Do' ? 'selected' : '') + '>To Do</option>' +
+                                '<option value="In Progress" ' + (task.status === 'In Progress' ? 'selected' : '') + '>In Progress</option>' +
+                                '<option value="Completed" ' + (task.status === 'Completed' ? 'selected' : '') + '>Completed</option>' +
+                            '</select>' +
+                        '</td>' +
+                        '<td>' +
+                            '<a href="/Tasks/Edit/' + task.id + '" class="btn btn-sm btn-warning">Edit</a> ' +
+                            '<a href="/Tasks/Delete/' + task.id + '" class="btn btn-sm btn-danger">Delete</a>' +
+                        '</td>' +
+                    '</tr>';
+                    $('#taskTable tbody').append(row);
+                });
+            }).fail(function () {
+                alert('Error loading tasks');
+            });
+        }
+
+        $(document).ready(function () {
+            loadTasks(); // Load tasks on page load
+
+            // Refresh tasks button
+            $('#refreshTasks').click(function () {
+                loadTasks();
+            });
+
+            // Handle status change
+            $(document).on('change', '.status-select', function () {
+                var id = $(this).data('id');
+                var newStatus = $(this).val();
+                $.post('/Tasks/UpdateStatus', { id: id, newStatus: newStatus }, function (response) {
+                    if (response.success) {
+                        alert('Status updated!');
+                        loadTasks(); // Refresh list after update
+                    } else {
+                        alert('Error: ' + response.message);
+                    }
+                }).fail(function () {
+                    alert('Error updating status');
+                });
+            });
+        });
+    </script>
+}

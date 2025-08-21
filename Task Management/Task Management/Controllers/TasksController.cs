@@ -38,6 +38,31 @@ namespace Task_Management.Controllers
                 .Where(t=>t.UserId == userId).ToListAsync();
             return View(tasks);
         }
+        // New: Get tasks as JSON for AJAX
+        [HttpGet]
+        public async Task<IActionResult> GetTasks()
+        {
+            var userId = _userManager.GetUserId(User);
+            var tasks = await _context.Tasks.Where(t => t.UserId == userId).ToListAsync();
+            return Json(tasks);
+        }
+
+        // New: Update status via AJAX
+        [HttpPost]
+        public async Task<IActionResult> UpdateStatus(int id, string newStatus)
+        {
+            var taskItem = await _context.Tasks.FindAsync(id);
+            if (taskItem == null || taskItem.UserId != _userManager.GetUserId(User))
+            {
+                return Json(new { success = false, message = "Task not found or unauthorized" });
+            }
+
+            taskItem.Status = newStatus;
+            _context.Update(taskItem);
+            await _context.SaveChangesAsync();
+
+            return Json(new { success = true, message = "Status updated successfully" });
+        }
 
 
         // GET: Tasks/Details/5
