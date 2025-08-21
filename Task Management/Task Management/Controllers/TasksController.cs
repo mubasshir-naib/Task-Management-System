@@ -2,28 +2,43 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Task_Management.Data;
 using Task_Management.Models;
 
+
 namespace Task_Management.Controllers
 {
+    [Authorize]
     public class TasksController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public TasksController(ApplicationDbContext context)
+        public TasksController(ApplicationDbContext context,
+            UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Tasks
+        //// GET: Tasks
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(await _context.Tasks.ToListAsync());
+        //}
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Tasks.ToListAsync());
+            var userId = _userManager.GetUserId(User);
+            var tasks= await _context.Tasks
+                .Where(t=>t.UserId == userId).ToListAsync();
+            return View(tasks);
         }
+
 
         // GET: Tasks/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -58,6 +73,7 @@ namespace Task_Management.Controllers
         {
             if (ModelState.IsValid)
             {
+                tasksEntity.UserId = _userManager.GetUserId(User);
                 _context.Add(tasksEntity);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -74,7 +90,7 @@ namespace Task_Management.Controllers
             }
 
             var tasksEntity = await _context.Tasks.FindAsync(id);
-            if (tasksEntity == null)
+            if (tasksEntity == null|| tasksEntity.UserId != _userManager.GetUserId(User))
             {
                 return NotFound();
             }
@@ -88,7 +104,7 @@ namespace Task_Management.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,DueDate,Status,UserId")] TasksEntity tasksEntity)
         {
-            if (id != tasksEntity.Id)
+            if (id != tasksEntity.Id || tasksEntity.UserId != _userManager.GetUserId(User))
             {
                 return NotFound();
             }
@@ -126,7 +142,7 @@ namespace Task_Management.Controllers
 
             var tasksEntity = await _context.Tasks
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (tasksEntity == null)
+            if (tasksEntity == null || tasksEntity.UserId != _userManager.GetUserId(User))
             {
                 return NotFound();
             }
@@ -140,12 +156,13 @@ namespace Task_Management.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var tasksEntity = await _context.Tasks.FindAsync(id);
-            if (tasksEntity != null)
+            if (tasksEntity != null && tasksEntity.UserId==_userManager.GetUserId(User))
             {
                 _context.Tasks.Remove(tasksEntity);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
+     
             return RedirectToAction(nameof(Index));
         }
 
