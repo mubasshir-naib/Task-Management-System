@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Task_Management.Data;
 using Task_Management.Models;
+using Task_Management.Services;
 
 
 namespace Task_Management.Controllers
@@ -18,12 +19,14 @@ namespace Task_Management.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly IEmailService _emailService;
 
         public TasksController(ApplicationDbContext context,
-            UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager,IEmailService emailService)
         {
             _context = context;
             _userManager = userManager;
+            _emailService = emailService;
         }
 
         //// GET: Tasks
@@ -57,9 +60,20 @@ namespace Task_Management.Controllers
                 return Json(new { success = false, message = "Task not found or unauthorized" });
             }
 
+            var oldStatus = taskItem.Status;
+
             taskItem.Status = newStatus;
             _context.Update(taskItem);
             await _context.SaveChangesAsync();
+
+            if (oldStatus != newStatus)
+            {
+                var user = await _userManager.FindByIdAsync(taskItem.UserId);
+                if (user != null && !string.IsNullOrEmpty(user.Email))
+                {
+                    await _emailService.SendEmailAsync(user.Email, "Task Status Changed", $"Your task '{taskItem.Title}' status has changed from {oldStatus} to {newStatus}.");
+                }
+            }
 
             return Json(new { success = true, message = "Status updated successfully" });
         }
@@ -138,8 +152,17 @@ namespace Task_Management.Controllers
             {
                 try
                 {
+                    var oldStatus = tasksEntity.Status;
                     _context.Update(tasksEntity);
                     await _context.SaveChangesAsync();
+
+                    if (oldStatus != tasksEntity.Status) {
+                        var user = await _userManager.FindByIdAsync(tasksEntity.UserId);
+                        if(user != null && !string.IsNullOrEmpty(user.Email))
+                        {
+                            await _emailService.SendEmailAsync(user.Email, "Task Status Changed", $"Your task '{tasksEntity.Title}' status has changed from {oldStatus} to {tasksEntity.Status}.");
+                        }
+                    }
                 }
                 catch (DbUpdateConcurrencyException)
                 {
