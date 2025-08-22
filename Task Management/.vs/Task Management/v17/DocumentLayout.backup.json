@@ -3,8 +3,31 @@
   "WorkspaceRootPath": "E:\\BrainStation23\\Bootcamp1\\Task Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\services\\deadlinenotificationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\services\\deadlinenotificationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SHIKHON\\AppData\\Local\\SourceServer\\3be46f1f7b9c9a02ff9e87cb806ec0851ac0193f8599c016d68b0bfbdc76627c\\src\\Hangfire.Core\\RecurringJobManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +50,12 @@
       "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\tasksentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B06FF60-A193-4F46-8487-7017E1E3142E}|Task Management\\Task Management.csproj|e:\\brainstation23\\bootcamp1\\task management\\task management\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -86,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,46 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TasksController.cs",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Task Management\\Controllers\\TasksController.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\TasksController.cs*",
-              "RelativeToolTip": "Task Management\\Controllers\\TasksController.cs*",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAAAKIAAADDAAAAAAAAAA==",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T08:46:08.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T08:22:01.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Task Management\\Services\\EmailService.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\EmailService.cs*",
-              "RelativeToolTip": "Task Management\\Services\\EmailService.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:17:03.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\IEmailService.cs",
               "RelativeDocumentMoniker": "Task Management\\Services\\IEmailService.cs",
@@ -165,18 +150,17 @@
               "RelativeToolTip": "Task Management\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:16:04.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:16:04.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Program.cs",
               "RelativeDocumentMoniker": "Task Management\\Program.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Program.cs*",
-              "RelativeToolTip": "Task Management\\Program.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Program.cs",
+              "RelativeToolTip": "Task Management\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T05:51:08.927Z",
               "EditorCaption": ""
@@ -184,84 +168,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Task Management\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Task Management\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Title": "DeadlineNotificationJob.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\DeadlineNotificationJob.cs",
+              "RelativeDocumentMoniker": "Task Management\\Services\\DeadlineNotificationJob.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\DeadlineNotificationJob.cs",
+              "RelativeToolTip": "Task Management\\Services\\DeadlineNotificationJob.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T05:51:16.684Z",
+              "WhenOpened": "2025-08-22T09:58:34.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Index.cshtml",
-              "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Index.cshtml",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Index.cshtml",
-              "RelativeToolTip": "Task Management\\Views\\Tasks\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T12:58:24.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TasksEntity.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
-              "RelativeDocumentMoniker": "Task Management\\Models\\TasksEntity.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
-              "RelativeToolTip": "Task Management\\Models\\TasksEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:19:25.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Task Management\\Models\\ApplicationUser.cs",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Task Management\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:24:29.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Task Management\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Task Management\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAABSwB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T08:56:03.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Details.cshtml",
-              "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Details.cshtml",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Details.cshtml",
-              "RelativeToolTip": "Task Management\\Views\\Tasks\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T09:58:39.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\appsettings.json",
               "RelativeDocumentMoniker": "Task Management\\appsettings.json",
@@ -274,20 +193,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Task Management.csproj",
-              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj",
-              "RelativeDocumentMoniker": "Task Management\\Task Management.csproj",
-              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj*",
-              "RelativeToolTip": "Task Management\\Task Management.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-21T08:12:40.84Z",
+              "DocumentIndex": 3,
+              "Title": "RecurringJobManager.cs",
+              "DocumentMoniker": "C:\\Users\\SHIKHON\\AppData\\Local\\SourceServer\\3be46f1f7b9c9a02ff9e87cb806ec0851ac0193f8599c016d68b0bfbdc76627c\\src\\Hangfire.Core\\RecurringJobManager.cs",
+              "ToolTip": "C:\\Users\\SHIKHON\\AppData\\Local\\SourceServer\\3be46f1f7b9c9a02ff9e87cb806ec0851ac0193f8599c016d68b0bfbdc76627c\\src\\Hangfire.Core\\RecurringJobManager.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAKEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:21:24.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Task Management\\Services\\EmailService.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Services\\EmailService.cs",
+              "RelativeToolTip": "Task Management\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:17:03.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\.gitignore",
+              "RelativeDocumentMoniker": "Task Management\\.gitignore",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\.gitignore",
+              "RelativeToolTip": "Task Management\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-22T09:52:10.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T12:58:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Task Management\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T08:22:01.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Task Management\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Task Management\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T05:51:16.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TasksEntity.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\TasksEntity.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\TasksEntity.cs",
+              "RelativeToolTip": "Task Management\\Models\\TasksEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T08:19:25.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Task Management\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T06:24:29.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABSwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T08:56:03.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Details.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Details.cshtml",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Details.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Tasks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T09:58:39.464Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Task Management.csproj",
+              "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeDocumentMoniker": "Task Management\\Task Management.csproj",
+              "ToolTip": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeToolTip": "Task Management\\Task Management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T08:12:40.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Create.cshtml",
               "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Create.cshtml",
@@ -295,12 +334,11 @@
               "RelativeToolTip": "Task Management\\Views\\Tasks\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAABSwCQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T09:51:26.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T09:51:26.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Tasks\\Edit.cshtml",
               "RelativeDocumentMoniker": "Task Management\\Views\\Tasks\\Edit.cshtml",
@@ -308,12 +346,11 @@
               "RelativeToolTip": "Task Management\\Views\\Tasks\\Edit.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAABSwCYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T09:51:59.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T09:51:59.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Task Management\\Views\\Home\\Index.cshtml",
@@ -321,12 +358,11 @@
               "RelativeToolTip": "Task Management\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T12:58:16.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T12:58:16.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Task Management\\Controllers\\HomeController.cs",
@@ -334,12 +370,11 @@
               "RelativeToolTip": "Task Management\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:39:03.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T08:39:03.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "20250821083354_taskentity.cs",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
               "RelativeDocumentMoniker": "Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
@@ -347,12 +382,11 @@
               "RelativeToolTip": "Task Management\\Data\\Migrations\\20250821083354_taskentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:34:01.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T08:34:01.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "E:\\BrainStation23\\Bootcamp1\\Task Management\\Task Management\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Task Management\\ScaffoldingReadMe.txt",
@@ -360,8 +394,7 @@
               "RelativeToolTip": "Task Management\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-21T08:15:56.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T08:15:56.06Z"
             }
           ]
         }
